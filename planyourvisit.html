@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="style.css">
+    <title>Space Museum</title>
+</head>
+<body>
+    <header>
+        <a href="index.html"></a>
+    </header>
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="planyourvisit.html" class="active">Plan Your Visit</a>
+        <a href="exhibits.html">Exhibits</a>
+        <a href="keepintouch.html">Keep In Touch</a>
+    </div>
+    <!--Used this YouTube video to code the #slider: https://www.youtube.com/watch?v=qDww4CbxtD4-->
+    <!--Images taken from Pexels: https://www.pexels.com/ and edited using Canva: https://canva.com/-->
+    <section>
+        <div id="slider">
+            <figure class="figure-slider">
+                <img src="assets/Space Museum Building Banner.webp" alt="Space Museum building with logo">
+                <img src="assets/New Exhibit.webp" alt="New exhibit opened up in the Space Museum">
+                <img src="assets/Cafe Coming Soon.webp" alt="Cafe coming soon in the Space Museum">
+                <img src="assets/Space Room.webp" alt="Picture of the moon from the Space Room exhibit in the Space Museum">
+            </figure>
+        </div>
+    </section>
+    <section class="calendar-times">
+        <div class="calendar-times-container">
+            <div class="row calendar-times__row">
+                <div class="col-6 col-md-6 calendar-times__col">
+                    <table class="calendar">
+                        <tr>
+                            <th colspan="7" class="month">August 2023</th>
+                        </tr>
+                        <tr class="weekdays-days">
+                            <th>Mon</th>
+                            <th>Tue</th>
+                            <th>Wed</th>
+                            <th>Thu</th>
+                            <th>Fri</th>
+                            <th>Sat</th>
+                            <th>Sun</th>
+                        </tr>
+                        <tr class="weekdays-days">
+                            <td> </td>
+                            <td>1</td>
+                            <td>2</td>
+                            <td>3</td>
+                            <td>4</td>
+                            <td>5</td>
+                            <td>5</td>
+                        </tr>
+                        <tr class="weekdays-days">
+                            <td>7</td>
+                            <td>8</td>
+                            <td>9</td>
+                            <td>10</td>
+                            <td>11</td>
+                            <td>12</td>
+                            <td>13</td>
+                        </tr>
+                        <tr class="weekdays-days">
+                            <td>14</td>
+                            <td>15</td>
+                            <td>16</td>
+                            <td>17</td>
+                            <td>18</td>
+                            <td>19</td>
+                            <td>20</td>
+                        </tr>
+                        <tr class="weekdays-days">
+                            <td>21</td>
+                            <td>22</td>
+                            <td>23</td>
+                            <td>24</td>
+                            <td>25</td>
+                            <td>26</td>
+                            <td>27</td>
+                        </tr>
+                        <tr class="weekdays-days">
+                            <td>28</td>
+                            <td>29</td>
+                            <td>30</td>
+                            <td>31</td>
+                        </tr>
+                    </table>
+                    <p class="calendar-info"> <i class="fa-solid fa-square" style="color: #55fa55;" "></i> Open 10am Daily</p>
+                    <p class="calendar-info"> <i class="fa-solid fa-square" style="color: #ff0000;" "></i> Closed</p>
+                </div>
+                <div class=" col-6 col-md-6 calendar-times__col">
+                    <table class="opening-times">
+                        <tr>
+                            <th colspan="2" id="opening-times">Opening Times</th>
+                        </tr>
+                        <tr>
+                            <th>Monday</th>
+                            <td>10am - 7pm</td>
+                        </tr>
+                        <tr>
+                            <th>Tuesday</th>
+                            <td>10am - 7pm</td>
+                        </tr>
+                        <tr>
+                            <th>Wednesday</th>
+                            <td>10am - 7pm</td>
+                        </tr>
+                        <tr>
+                            <th>Thursday</th>
+                            <td>10am - 7pm</td>
+                        </tr>
+                        <tr>
+                            <th>Friday</th>
+                            <td>10am - 7pm</td>
+                        </tr>
+                        <tr>
+                            <th>Saturday</th>
+                            <td>10am - 7pm</td>
+                        </tr>
+                        <tr>
+                            <th>Sunday</th>
+                            <td>10am - 5pm</td>
+                        </tr>
+                    </table>
+                </div>    
+            </div>
+        </div>     
+    </section>
+    <div>
+        <h2 class="booking_title">Book your tickets now to beat the queues</h2>
+    </div>
+    <section>
+            <table class="booking-form">
+                <tr class="form-header">
+                    <td align="left">Ticket</td>
+                    <td align="rigth">Standard Price</td>
+                    <td align="right">Qunatity</td>
+                </tr>
+                <tr>
+                    <td align="left">Adult Ticket (18 - 59 yrs)</td>
+                    <td align="rigth">£19.50</td>
+                    <td align="right">
+                <select>
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="left">Child Ticket (3 - 17 yrs)</td>
+                    <td align="rigth">£12.50</td>
+                    <td align="right">
+                <select>
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="left">0 - 2 yrs Ticket</td>
+                    <td align="rigth">Free</td>
+                    <td align="right">
+                <select>
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="left">Senior Citizen Ticket (60+ yrs)</td>
+                    <td align="rigth">£16.50</td>
+                    <td align="right">
+                <select>
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="left">Disabled Adult Ticket (Proof of disability required)</td>
+                    <td align="rigth">£17.50</td>
+                    <td align="right">
+                <select>
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="left">Disabled Child Ticket (Proof of disability required)</td>
+                    <td align="rigth">£11.50</td>
+                    <td align="right">
+                <select>
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="left">Carer Ticket (Free with a full paying registered disabled visitor)</td>
+                    <td align="rigth">Free</td>
+                    <td align="right">
+                <select>
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="left">Family Ticket 1 - 1 Adult & 2 Children</td>
+                    <td align="rigth">£35.00</td>
+                    <td align="right">
+                <select>
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="left">Family Ticket 2 - 2 Adults & 1 Child</td>
+                    <td align="rigth">£45.00</td>
+                    <td align="right">
+                <select>
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="left">Family Ticket 3 - 2 Adults & 2 Children</td>
+                    <td align="rigth">£50.00</td>
+                    <td align="right">
+                <select>
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="left">Family Ticket 4 - 2 Adults & 3 Children</td>
+                    <td align="rigth">£55.00</td>
+                    <td align="right">
+                <select>
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                    </td>
+                </tr>
+            </table>
+            <form method="GET" action="booknow-page.html">
+             <input type="submit" id="submit" name="submit" target="_blank" value="Book Now">
+            </form>
+    </section>
+    <footer>
+        <ul class="footer-nav">
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="planyourvisit.html">Plan Your Visit</a>
+            </li>
+            <li>
+                <a href="exhibits.html">Exhibits</a>
+            </li>
+            <li>
+                <a href="keepintouch.html">Keep In Touch</a>
+            </li>
+        </ul>
+        <p class="copyright">&copy; Copyright 2023 Sophie Deakin</p>
+    </footer>
+</body>
+</html>
