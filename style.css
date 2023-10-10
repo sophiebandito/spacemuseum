@@ -10,7 +10,7 @@
 
 body {
     font-family: "Roboto", sans-serif;
-    background: url(assets/background\ 4.webp) no-repeat center center;
+    background: url(background\ 4.webp) no-repeat center center;
     background-size: cover;
     overflow-x: hidden;
 }
@@ -19,7 +19,7 @@ body {
 
 header {
     background-color: #000;
-    background-image: url(assets/spacemuseumlogo.webp);
+    background-image: url(spacemuseumlogo.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-position-y: 1px;
